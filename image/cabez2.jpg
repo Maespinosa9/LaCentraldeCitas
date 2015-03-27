@@ -1,0 +1,164 @@
+
+<!-- saved from url=(0028)http://lacentraldecitas.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="es">
+
+<link href="./cabez2_files/css" rel="stylesheet" type="text/css">
+<title>.: Central de Citas - Colombia :.</title>
+</head>
+
+<body bgcolor="#FAFAF9">
+ <div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="930" bgcolor="white">
+   <tbody><tr>
+    <td>
+     <img border="0" src="./cabez2_files/borde_izq.jpg" width="15" height="100%">
+    </td>
+    <td>
+     <table border="0" cellpadding="0" cellspacing="0" width="900" bgcolor="white">
+      <tbody><tr>
+       <td height="100" align="center">
+        <table border="0" cellpadding="15" cellspacing="0" width="100%">
+         <tbody><tr>
+          <td width="30%" valign="center">
+           <img border="0" src="./cabez2_files/logo.jpg" width="225" height="100">
+          </td>
+          <td width="70%" valign="center" align="right" background="./cabez2_files/img05.jpg">
+           <a href="http://lacentraldecitas.com/login.php"> 
+            <img border="0" src="./cabez2_files/btn01.png" width="120">
+           </a>
+          </td>
+         </tr>
+        </tbody></table>
+       </td>
+      </tr>
+      <tr>
+       <td height="35" bgcolor="#08088A" align="center">
+        <table border="0" cellpadding="0" cellspacing="0" width="900" bgcolor="#08088A">
+         <tbody><tr>
+          <td width="200">
+          </td>
+          <td align="center" width="100" height="35">
+           <font face="Open Sans" size="4" color="#81F7F3">Inicio</font>
+          </td>
+          <td width="250" align="center" height="35" onmouseover="this.style.color=&#39;#0489B1&#39;; this.style.background=&#39;#0489B1&#39;; this.style.cursor=&#39;hand&#39;" onmouseout="this.style.color=&#39;#08088A&#39;; this.style.background=&#39;#08088A&#39;;" onclick="document.location=&#39;servicios.htm&#39;" style="color: rgb(8, 8, 138); cursor: pointer; background: rgb(8, 8, 138);">
+           <font face="Open Sans" size="4" color="white">Nuestros  Servicios</font>
+          </td>
+          <td width="150" align="center" height="35" onmouseover="this.style.color=&#39;#0489B1&#39;; this.style.background=&#39;#0489B1&#39;; this.style.cursor=&#39;hand&#39;" onmouseout="this.style.color=&#39;#08088A&#39;; this.style.background=&#39;#08088A&#39;;" onclick="document.location=&#39;contacto.htm&#39;" style="color: rgb(4, 137, 177); cursor: pointer; background: rgb(4, 137, 177);">
+           <font face="Open Sans" size="4" color="white">Contáctenos</font>
+          </td>
+          <td width="200" align="right">
+          </td>
+         </tr>
+        </tbody></table>
+       </td>
+      </tr>
+      <tr>
+       <td height="450" valign="top">
+        <table border="0" cellpadding="0" cellspacing="0" width="900">
+         <tbody><tr>
+          <td width="300" align="center">
+           <font face="Open Sans" size="4" color="#0066CC">
+            <b>Call Center orientado a<br>Profesionales de la salud<br>de todas las Áreas</b>
+           </font>
+           <img border="0" src="./cabez2_files/img01.jpg" width="300">
+          </td>
+          <td width="600" valign="top">
+           <table border="0" cellpadding="9" cellspacing="0" width="600">
+            <tbody><tr>
+             <td width="5%" valign="top">
+              <font face="Open Sans" size="4" color="black">*</font>
+             </td>
+             <td width="95%" valign="top">
+              <font face="Open Sans" size="4" color="black">  
+               Los pacientes que atiende al mes son pocos y el presupuesto no es suficiente para contratar una secretaria?
+              </font>
+             </td>
+             </tr>
+            <tr>
+             <td width="5%" valign="top">
+              <font face="Open Sans" size="4" color="black">*</font>
+             </td>
+             <td width="95%" valign="top">
+              <font face="Open Sans" size="4" color="black">
+               Su auxiliar no tiene tiempo suficiente para hacer recordatorios de citas a todos sus pacientes y el nivel de ausencias se ha incrementado?
+              </font>
+             </td>
+            </tr>
+            <tr>
+             <td width="5%" valign="top">
+              <font face="Open Sans" size="4" color="black">*</font>
+             </td>
+             <td width="95%" valign="top">
+              <font face="Open Sans" size="4" color="black">
+               Tiene consulta en sitios diferentes y no sabe cÃ³mo unificar su agenda en un solo lugar?
+              </font>
+             </td>
+            </tr>
+            <tr>
+             <td width="5%" valign="top">
+              <font face="Open Sans" size="4" color="black">*</font>
+             </td>
+             <td width="95%" valign="top">
+              <font face="Open Sans" size="4" color="black">
+               Está buscando una solución eficiente y económica de servicio al cliente y manejo de su agenda?
+              </font>
+             </td>
+            </tr>
+            <tr>
+             <td width="5%" valign="top"></td>
+             <td width="95%" valign="top" align="center">
+              <font face="Open Sans" size="5" color="#FF3300">
+               <b>Nosotros somos la solución!</b>
+              </font>
+             </td>
+            </tr>
+
+            <tr>
+             <td width="5%" valign="top"></td>
+             <td width="95%" valign="top">
+              <font face="Open Sans" size="4" color="black">
+               - Operadoras de 7am a 7pm<br>
+               - Recordatorio a pacientes por teléfono, mail o mensaje de texto<br>
+               - Agenda por mail y/o fax desde el día anterior<br>
+               - Consulta de agenda online
+              </font>
+             </td>
+            </tr>
+            <tr>
+             <td width="5%" valign="top"></td>
+             <td width="95%" valign="center" align="right" height="80">
+              <a href="http://lacentraldecitas.com/servicios.htm">
+              <img border="0" src="./cabez2_files/img02.jpg" width="240">
+              </a>
+             </td>
+            </tr>
+           </tbody></table>
+          </td>
+         </tr>
+        </tbody></table>
+       </td>
+      </tr>
+      <tr>
+       <td height="1" bgcolor="#08088A">
+       </td>
+      </tr>
+      <tr>
+       <td align="center" height="40" valign="center">
+        <font face="Open Sans" size="3" color="black">
+         Información, descripción y contratación del servicio: 314 310 8346
+        </font>
+       </td>
+      </tr>
+     </tbody></table>
+    </td>
+    <td>
+     <img border="0" src="./cabez2_files/borde_der.jpg" width="15" height="100%">
+    </td>
+   </tr>
+  </tbody></table>
+  <img border="0" src="./cabez2_files/borde_aba.jpg" width="900" height="15">
+ </div>
+
+
+</body></html>
