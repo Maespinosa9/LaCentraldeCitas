@@ -5,7 +5,7 @@
         <ul class="subs">
             <li><a href="#">Usuarios</a>
                 <ul>
-                    <li><a href="#">Crear, Modificar o Eliminar</a></li>
+                    <li><a href="vista/vUsuario.php">Crear, Modificar o Eliminar</a></li>
                     <li><a href="#">Permisos</a></li>
                     <li><a href="#">Tipos de Usuarios</a></li>
                     <li><a href="#">Tipos de Identificaci&oacute;n</a></li>
