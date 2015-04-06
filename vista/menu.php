@@ -1,11 +1,11 @@
 <ul id="nav">
-    <li><a href="#">Home</a></li>
+    <li><a href="home.php">Home</a></li>
     <li><a href="#s1">Administraci&oacute;n</a>
         <span id="s1"></span>
         <ul class="subs">
             <li><a href="#">Usuarios</a>
                 <ul>
-                    <li><a href="vista/vUsuario.php">Crear, Modificar o Eliminar</a></li>
+                    <li><a href="home.php?pac=101">Crear, Modificar o Eliminar</a></li>
                     <li><a href="#">Permisos</a></li>
                     <li><a href="#">Tipos de Usuarios</a></li>
                     <li><a href="#">Tipos de Identificaci&oacute;n</a></li>
