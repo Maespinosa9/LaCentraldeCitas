@@ -7,8 +7,8 @@
                 <ul>
                     <li><a href="home.php?pac=101">Crear, Modificar o Eliminar</a></li>
                     <li><a href="#">Permisos</a></li>
-                    <li><a href="#">Tipos de Usuarios</a></li>
-                    <li><a href="#">Tipos de Identificaci&oacute;n</a></li>
+                    <li><a href="home.php?pac=102">Tipos de Usuarios</a></li>
+                    <li><a href="home.php?pac=103">Tipos de Identificaci&oacute;n</a></li>
                 </ul>
             </li>
             <li><a href="#">Datos Generales</a>

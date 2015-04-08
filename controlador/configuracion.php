@@ -1,6 +1,6 @@
 <?php
-	$usu_db = "lacentra";
-	$pass_db = "*ro*ri*2015";
+	$usu_db = "root";
+	$pass_db = "";
 	$serv_db = "localhost";
 	$db = "LaCentralCitas";
 ?>

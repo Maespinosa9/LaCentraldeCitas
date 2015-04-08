@@ -2,7 +2,7 @@
 include("controlador/cUsuario.php")
 ?>
 
-<div align="left"	>
+<div align="left">
 
 <h3>Ingresar Usuarios</h3>
 <div class="form-group">
@@ -53,7 +53,7 @@ include("controlador/cUsuario.php")
         ?>
     </td>
 </tr></table></div><br>
-	<form  name="form2" method="get" action="home.php?pac=104" onSubmit="return confirm('¿Desea eliminar?')">
+	<form  name="form2" method="get" action="home.php?pac=101" onSubmit="return confirm('¿Desea eliminar?')">
 <table class="table table-bordered table-hover table-striped">
 	<thead>
 		<tr>
