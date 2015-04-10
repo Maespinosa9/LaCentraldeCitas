@@ -82,13 +82,13 @@ include("controlador/cProfesional.php")
 			<textarea class="form-control" rows="3" cols="20" style="resize:none" name="Obs" id="Obs"></textarea>
 		</td>
 		<td>
-			<label>Tipo de Usuario</label><br>
+			<label>Usuario</label><br>
 			<select class="form-control" id="IdUsu" name="IdUsu" required="required">
 		    <option value="0" selected="selected"> </option>
 		    <?php 
-		        for($i = 0; $i<count($TipoUsu); $i++){
+		        for($i = 0; $i<count($Usu); $i++){
 		    ?>
-		    <option value="<?php echo $TipoUsu[$i]['IdTipoUsuario']; ?>"> <?php echo $TipoUsu[$i]['Nombre'];?> </option>
+		    <option value="<?php echo $Usu[$i]['IdUsuario']; ?>"> <?php echo $Usu[$i]['Nombre'];?> </option>
 		    <?php
 		        }
 		    ?>
@@ -140,7 +140,7 @@ include("controlador/cProfesional.php")
 			for($i = 0; $i<count($dat); $i++){
 		?>
 		<tr>
-			<td><?php echo $dat[$i]['PrimerNombre']." ".$dat[$i]['PrimerApellido']?></td>
+			<td colspan = "2"><?php echo $dat[$i]['PrimerNombre']." ".$dat[$i]['PrimerApellido']?></td>
 			<td><?php echo $dat[$i]['Identificacion']?></td>
 			<td><?php echo $dat[$i]['RegistroProfesional']?></td>
 			<td><?php echo $dat[$i]['Celular']?></td>

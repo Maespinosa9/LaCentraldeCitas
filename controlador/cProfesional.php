@@ -26,13 +26,14 @@ $Conm = isset($_POST["Conm"]) ? $_POST["Conm"]:NULL;
 $Obs = isset($_POST["Obs"]) ? $_POST["Obs"]:NULL;
 $IdUsu = isset($_POST["IdUsu"]) ? $_POST["IdUsu"]:NULL;
 
+
+
 If ($PriApe && $PriNom && $TipoDoc && $Ide && $Reg && $IdUsu && !$actu){
-	echo "entro";
 	$ins->insProf($IdUsu, $TipoDoc, $Ide, $PriApe, $SegApe, $PriNom, $SegNom, $Reg, $Dire, $Tel, $Cel, $mail, $Obs, $Conm);
 }
 
 $Tipoide = $ins->SelTipoId();
-$TipoUsu = $ins->SelUsu();
+$Usu = $ins->SelUsu();
 
 //Paginar
 	$bo = "";

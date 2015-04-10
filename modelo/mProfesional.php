@@ -17,9 +17,8 @@ class mProfesional{
 	function insProf($IdUsuario, $IdTipoIdentificacion, $Identificacion, $PriApe, $SegApe, $PriNom, $SegNom, $RegistroProf, $Direccion, $Tel, $Cel, $mail, $observ, $Conmutador)
 	{
 		$sql = "INSERT INTO profesional (IdUsuario, IdTipoIdentificacion, Identificacion, PrimerApellido, SegundoApellido, PrimerNombre, SegundoNombre, RegistroProfesional, ";
-		$sql .= "Direccion, Telefono, Celular, E_mail, Observaciones, Conmutador) VALUES '".$IdUsuario."', '".$IdTipoIdentificacion."', '".$Identificacion."', '".$PriApe."', ";
-		$sql .= "'".$SegApe."', '".$PriNom."', '".$SegNom."', '".$RegistroProf."', '".$Direccion."', '".$Tel."', '".$Cel."', '".$mail."', '".$observ."', '".$Conmutador."'";
-		echo $sql;
+		$sql .= "Direccion, Telefono, Celular, E_mail, Observaciones, Conmutador) VALUES (".$IdUsuario.", ".$IdTipoIdentificacion.", '".$Identificacion."', '".$PriApe."', ";
+		$sql .= "'".$SegApe."', '".$PriNom."', '".$SegNom."', '".$RegistroProf."', '".$Direccion."', '".$Tel."', '".$Cel."', '".$mail."', '".$observ."', '".$Conmutador."')";
 		$this->cons($sql);
 	}
 
