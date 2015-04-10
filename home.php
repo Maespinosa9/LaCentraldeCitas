@@ -37,7 +37,9 @@
 						include("vista/vTipoUsuario.php");
 					}else if ($Pac == "103"){
 						include("vista/vTipoIdentificacion.php");
-					}	
+					}else if ($Pac == "104"){
+						include("vista/vProfesional.php");
+					}
 				?>
 			</div>
 		</div>

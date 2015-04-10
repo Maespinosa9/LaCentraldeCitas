@@ -80,4 +80,4 @@ include("controlador/cUsuario.php")
 		<tr></tr>
 	</tbody>
 </table>
-</div>
+</div></form></div></div>

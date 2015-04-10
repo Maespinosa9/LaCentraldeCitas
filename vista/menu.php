@@ -31,7 +31,7 @@
         <ul class="subs">
             <li><a href="#">Profesionales</a>
                 <ul>
-                    <li><a href="#">Crear, Modificar, Eliminar</a></li>
+                    <li><a href="home.php?pac=104">Crear, Modificar, Eliminar</a></li>
                     <li><a href="#">Especialidades</a></li>
                     <li><a href="#">Centros de Atenci&oacute;n</a></li>
 
@@ -45,7 +45,7 @@
             </li>
         </ul>
     </li>
-    <li><a href="#s2">Agenda M&eacute;dica </a>
+    <li><a href="#">Agenda M&eacute;dica </a>
         <ul class="subs">
             <li><a href="#">Apertura Agenda</a> 
                  <ul>

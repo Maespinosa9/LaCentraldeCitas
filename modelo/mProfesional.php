@@ -19,6 +19,7 @@ class mProfesional{
 		$sql = "INSERT INTO profesional (IdUsuario, IdTipoIdentificacion, Identificacion, PrimerApellido, SegundoApellido, PrimerNombre, SegundoNombre, RegistroProfesional, ";
 		$sql .= "Direccion, Telefono, Celular, E_mail, Observaciones, Conmutador) VALUES '".$IdUsuario."', '".$IdTipoIdentificacion."', '".$Identificacion."', '".$PriApe."', ";
 		$sql .= "'".$SegApe."', '".$PriNom."', '".$SegNom."', '".$RegistroProf."', '".$Direccion."', '".$Tel."', '".$Cel."', '".$mail."', '".$observ."', '".$Conmutador."'";
+		echo $sql;
 		$this->cons($sql);
 	}
 
@@ -36,7 +37,7 @@ class mProfesional{
 	{
 		$sql = "SELECT * from Profesional";
 		if($filtro)
-			$sql.= " WHERE Profesional.Identificacion LIKE '%".$filtro."%'";
+			$sql.= " WHERE Profesional.PrimerNombre LIKE '%".$filtro."%'";
 		$sql.= " ORDER BY Profesional.IdProfesional LIMIT ".$rvalini.", ".$rvalfin;
 		$conexionBD = new conexion();
 		$conexionBD->conectarBD();
