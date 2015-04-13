@@ -39,7 +39,7 @@
             </li>
             <li><a href="#">Suscripciones</a>
                 <ul>
-                    <li><a href="#">Crear, Modificar, Eliminar  </a></li>
+                    <li><a href="home.php?pac=105">Crear, Modificar, Eliminar  </a></li>
                     <li><a href="#">Modelo Agenda</a></li>
                 </ul>
             </li>
