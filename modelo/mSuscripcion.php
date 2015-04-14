@@ -13,7 +13,7 @@ class mSuscripcion{
 	}
 
 	function insSus($IdVendedor, $Fecha, $IdUsuarioCreacion, $IdProfesional){
-		$sql = "INSERT INTO suscripcion(IdVendedor, Fecha, IdUsuarioCreacion, IdProfesional) VALUES (".$IdVendedor.", ".$Fecha.", ".$IdUsuarioCreacion.", ".$IdProfesional.")";
+		$sql = "INSERT INTO suscripcion(IdVendedor, Fecha, IdUsuarioCreacion, IdProfesional) VALUES (".$IdVendedor.", '".$Fecha."', ".$IdUsuarioCreacion.", ".$IdProfesional.")";
 		$this -> cons($sql);
 	}
 
@@ -45,7 +45,7 @@ class mSuscripcion{
 		$sql .= "inner join Profesional as P on p.IdProfesional = s.IdProfesional";
 		if($filtro)
 			$sql.= " WHERE p.PrimerNombre LIKE '%".$filtro."%' OR p.segundoNombre LIKE '%".$filtro."%' OR p.PrimerApellido LIKE '%".$filtro."%' OR p.SegundoApellido LIKE '%".$filtro."%'";
-		$sql.= " ORDER BY suscripcion.IdSuscripcion LIMIT ".$rvalini.", ".$rvalfin;
+		$sql.= " ORDER BY s.IdSuscripcion LIMIT ".$rvalini.", ".$rvalfin;
 		$conexionBD = new conexion();
 		$conexionBD->conectarBD();
 		$data = $conexionBD->ejeCon($sql,0);

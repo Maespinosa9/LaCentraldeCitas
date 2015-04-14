@@ -20,8 +20,7 @@
             </li>
              <li><a href="#">Administradoras</a>
                 <ul>
-                    <li><a href="#">Crear, Modificar o Eliminar</a></li>
-                    <li><a href="#">Tipos de Administradoras</a></li>
+                    <li><a href="home.php?pac=106">Crear, Modificar o Eliminar</a></li>
                 </ul>
             </li>
         </ul>

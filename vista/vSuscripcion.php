@@ -65,5 +65,32 @@ include("controlador/cSuscripcion.php")
         ?>
     </td>
 </tr></table></div><br>
-
+<form  name="form2" method="get" action="home.php?pac=105" onSubmit="return confirm('¿Desea eliminar?')">
+<table class="table table-bordered table-hover table-striped">
+	<thead>
+		<tr>
+			<th>C&oacute;digo</th>
+			<th>Profesional</th>
+			<th>Fecha Suscripci&oacute;n</th>
+			<th>Acciones</th>
+		</tr>
+	</thead>
+	<tbody>
+		<?php 
+			for($i = 0; $i<count($dat); $i++){
+		?>
+		<tr>
+			<td><?php echo$dat[$i]['IdSuscripcion']?></td>
+			<td><?php echo $dat[$i]['PrimerNombre']." ".$dat[$i]['segundoNombre']." ".$dat[$i]['PrimerApellido']." ".$dat[$i]['SegundoApellido'] ?></td>
+			<td><?php echo $dat[$i]['Fecha']?></td>
+			<td align = "center"><a href = "home.php?pr=<?php echo $dat[$i]['IdSuscripcion'] ?>&pac=<?php echo $pac; ?>&up=101"><input type="button" name="del" value="Editar"/></a>
+			<button value="<?php echo $dat[$i]['IdSuscripcion']?>" name="del">Eliminar</button></a></td>
+		</tr>
+		<?php
+			}
+		?>
+		<tr></tr>
+	</tbody>
+</table>
+</form></div>
 </div>

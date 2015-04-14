@@ -41,6 +41,8 @@
 						include("vista/vProfesional.php");
 					}else if ($Pac == "105"){
 						include("vista/vSuscripcion.php");
+					}else if ($Pac == "106"){
+						include("vista/vAdministradora.php");
 					}
 				?>
 			</div>
