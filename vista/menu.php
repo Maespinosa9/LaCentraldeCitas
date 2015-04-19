@@ -31,7 +31,7 @@
             <li><a href="#">Profesionales</a>
                 <ul>
                     <li><a href="home.php?pac=104">Crear, Modificar, Eliminar</a></li>
-                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="home.php?pac=107">Especialidades</a></li>
                     <li><a href="#">Centros de Atenci&oacute;n</a></li>
 
                 </ul>

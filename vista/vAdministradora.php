@@ -1,5 +1,5 @@
 <?php
-include("controlador/cAdministradora.php")
+include("controlador/cAdministradora.php");
 ?>
 
 <div align="left">
@@ -41,7 +41,7 @@ include("controlador/cAdministradora.php")
 	</table>
 </form>
 </div>
-<br><br><br>
+<br><br>
 <div class="form-group">
 	<form id="formAdm" name = "formAdm" method="POST" action="" class="form-inline">
 		<label>Administradora</label>
@@ -61,7 +61,7 @@ include("controlador/cAdministradora.php")
 </div>
 
 <div class="table-responsive">
-	<br/><br/><h3>Administradoras Activas</h3>
+	<h3>Administradoras Activas</h3>
 	<div align="right"><table width="650"><tr>
     <td>
         <form id="formfil" name="formfil" method="GET" action="home.php">
@@ -80,3 +80,30 @@ include("controlador/cAdministradora.php")
     </td>
 </tr></table></div><br>
 
+<form  name="form3" method="get" action="home.php?pac=105" onSubmit="return confirm('¿Desea eliminar?')">
+	<table class="table table-bordered table-hover table-striped">
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Tipo Administradora</th>
+				<th>Acciones</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?php 
+				for($i = 0; $i<count($dat); $i++){
+			?>
+			<tr>
+				<td><?php echo $dat[$i]['Nombre']?></td>
+				<td><?php echo $dat[$i]['TipoAdministradora']?></td>
+				<td align = "center"><a href = "home.php?pr=<?php echo $dat[$i]['IdAdministradora'] ?>&pac=<?php echo $pac; ?>&up=101"><input type="button" name="del" value="Editar"/></a>
+				<button value="<?php echo $dat[$i]['IdAdministradora']?>" name="del">Eliminar</button></a></td>
+			</tr>
+			<?php
+				}
+			?>
+			<tr></tr>
+		</tbody>
+	</table>
+</form>
+</div></div>
